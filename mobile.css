@@ -1,0 +1,45 @@
+@media(max-width:850px) {
+    body{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        text-transform: capitalize;
+        line-height: 0.75em;
+        background: url(/landing_page_img/imagepro.jpg) center center/cover;
+        color: #fff;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        font-weight: 900;
+    }
+    div ul{
+        display: flex;
+        margin: 20px 10px;
+    }
+    div ul li{
+        display: flex;
+        flex-direction: column;
+        text-transform: none;
+        text-transform: capitalize;
+        cursor: pointer;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    section .content{
+        width: 100%;
+    }
+    section .card {
+        background-color: rgb(22, 19, 19);
+        height: 65vh;
+        color: #fff;
+        text-align: center;
+        border-radius: 10px;
+    }
+}

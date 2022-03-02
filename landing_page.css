@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    line-height: 1.6em;
+}
+body{
+    background: url(/imagepro.jpg) center center/cover;
+    color: #fff;
+}
+#container{
+    max-width: 1200px;
+    margin: auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 900;
+}
+header h1{
+    color: rgb(243, 68, 24);
+    cursor: pointer;
+}
+header h1:hover{
+    color: rgb(16, 42, 128);
+}
+span{
+     color: rgb(243, 68, 24);
+    font-weight: 900; 
+    cursor: pointer;
+} 
+span:hover{
+    color:  rgb(52, 93, 228);
+}
+
+div ul{
+    display: flex;
+}
+div ul li{
+    display: flex;
+    text-transform: none;
+    margin-left: 30px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+div ul li:hover{
+    color: rgb(219, 21, 21);
+}
+div ul li:last-child{
+    margin-right: 30px;
+}
+.important{
+    color: rgb(243, 68, 24);
+}
+header div input{
+    height: 33px;
+    background-color: rgb(24, 41, 97);
+    color: #fff;
+    border-radius: 7px;
+    padding-left: 20px;
+    cursor: pointer;
+    border-bottom: 2px solid rgb(16, 42, 128);
+    border-right: 2px solid rgb(16, 42, 128);
+}
+header div input:hover{
+    background-color: rgb(16, 42, 128);
+}
+header div input::placeholder { 
+    color: #fff;
+}
+button{
+    background-color: rgb(243, 68, 24);
+    color: #fff;
+    margin: 10px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: solid 1px  rgb(243, 68, 24);
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(16, 42, 128);
+    border: rgb(16, 42, 128);
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 100px;
+}
+section .content{
+    width: 50%;
+}
+section .card {
+    background-color: rgb(22, 19, 19);
+    height: 60vh;
+    margin-top: 60px;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 2.0em;
+    border-radius: 10px;
+    padding-top: 40px;
+}
+section .card a{
+    font-weight: 900;
+    background-color: #fff;
+    color: rgb(16, 4, 70);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px 19%;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+section .card a:hover {
+    background-color: rgb(16, 42, 128);
+    color: #fff;
+}
+section .card input{
+    background-color: rgb(22, 19, 19);
+    color: #fff;
+    border-bottom: solid 2px rgb(243, 68, 24);
+    border-right: black solid 1px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 0 20px;
+    font-weight: 900;
+}
+section .card input:hover{
+    background-color: #fff;
+    color: rgb(6, 6, 63);
+}
+section .card .card-button{
+    background-color: rgb(245, 170, 30);
+    color: rgb(243, 68, 24);
+    padding: 2px 35%;
+    margin: 10px;
+    border-radius: 10px;
+}
+                                                                                                
